@@ -1,0 +1,12 @@
+2019-01-31T09:07:57+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in /var/www/html/esete/wp-content/plugins/ocean-extra/includes/menu-icons/includes/picker.php:126
+Stack trace:
+#0 /var/www/html/esete/wp-includes/class-wp-hook.php(286): OE_Menu_Icons_Picker::_save(16, 682, Array)
+#1 /var/www/html/esete/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /var/www/html/esete/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#3 /var/www/html/esete/wp-includes/nav-menu.php(560): do_action('wp_update_nav_m...', 16, 682, Array)
+#4 /var/www/html/esete/wp-includes/nav-menu.php(1030): wp_update_nav_menu_item(16, 682, Array)
+#5 /var/www/html/esete/wp-includes/class-wp-hook.php(286): _wp_auto_add_pages_to_menu('publish', 'draft', Object(WP_Post))
+#6 /var/www/html/esete/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#7 /var/www/html/esete/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#8 /var/www/html/esete/wp-includes/post.php(4202): do_action('transition_post... in /var/www/html/esete/wp-content/plugins/ocean-extra/includes/menu-icons/includes/picker.php on line 126
+
